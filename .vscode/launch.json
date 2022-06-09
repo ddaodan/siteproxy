@@ -5,12 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Current File",
-      "type": "python",
+      "name": "Launch Chrome",
       "request": "launch",
-      "program": "${file}",
-      "args": ["web-result.txt"],
-      "console": "integratedTerminal"
+      "type": "chrome",
+      "url": "file:///E:/%E6%A1%8C%E9%9D%A2/siteproxy/siteproxy/index.html",
+      "webRoot": "${workspaceFolder}"
     },
     {
       "name": "Debug tests single run",
